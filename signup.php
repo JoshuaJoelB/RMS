@@ -375,6 +375,22 @@ input:focus {
     font-size: .72rem;
 }
 
+.logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 16px;
+    width: 100%;
+}
+
+.logo-img img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 @media(max-width: 480px) {
     .signup-card {
         padding: 27px 21px;
@@ -395,7 +411,9 @@ input:focus {
             </svg>
         </a>
 
-        <div class="logo">CC</div>
+        <div class="logo-img">
+    <img src="Backgroundcc.jpg" alt="CCSJDM Logo" width="100">
+</div>
 
         <h1 class="title">
             Create Account
@@ -436,7 +454,7 @@ input:focus {
 
             <div class="form-group">
                 <label for="student_id">
-                    Student / Professor ID
+                    Professor ID
                 </label>
 
                 <input
